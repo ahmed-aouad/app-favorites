@@ -1,0 +1,64 @@
+body {background-image: url(images/desk-3076954_1280.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.home { justify-content: space-around;
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+    font-weight: bolder; 
+    font-size: 20px;
+    align-items: center;
+}
+
+a {text-decoration: none;
+    color: black;
+}
+
+h1 {font-family: cursive;
+text-shadow: 1px 2px burlywood;
+}
+
+.images {display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items:flex-end;
+justify-content: space-around;
+padding-top: 40px;
+padding-bottom: 40px;
+}
+
+.image1 {height: 200px;
+    border: solid 3px gold;
+}
+
+.image2 {height: 200px;
+    border: solid 3px darkcyan;
+}
+
+.image3 {height: 200px;
+    border: solid 3px black;
+}
+
+.image1:hover {scale: 1.2;}
+.image2:hover {scale: 1.2;}
+.image3:hover {scale: 1.2;}
+
+
+
+.app {display: flex;
+background-color: burlywood;
+font-weight: bold;
+border-radius: 15px;
+margin-right: 600px;
+border: solid 1px black;}
+
+nav {color: darkcyan;
+text-shadow: 1px -1px black;}
+
+.x {color: darkcyan;
+text-shadow: 1px 1px black;}
+
+
+

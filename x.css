@@ -1,0 +1,109 @@
+body {background-image: url(images/Twitter2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.home { justify-content: space-around;
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+    font-weight: bolder; 
+    font-size: 20px;
+    align-items: center;
+}
+
+    a{text-decoration: none;
+        color: black;
+    }
+
+h1 {   
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 2px 2px gold;
+}
+
+.galerie {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+   height: 100%;
+   margin: 10px 10px 10px 10px;
+   justify-content: space-around;
+    
+}      
+
+.galerie1 {
+    object-fit: contain;
+    width: 250px;
+    border: solid 2px gold;
+    border-radius: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+}
+
+.galerie1:hover {
+    scale: 1.1;
+}
+
+.bloc { display: flex;
+
+}
+
+.présentation {display: flex;
+flex-direction: column;    
+justify-content: start;
+margin-left: 40px;
+}
+
+#présentation2 {height: 250px;
+width: 250px;
+}
+
+.présentation3 {
+    max-width: 1100px;
+    margin-top: 150px;
+    text-align: center;
+   
+    
+}
+
+.bloc {display: flex;}
+
+.galerie2 {
+    object-fit: contain;
+    width: 250px;
+    border: solid 5px black;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.home1 {
+    justify-content: space-around;
+    display: flex;
+    background-color: burlywood;
+    height: 60px;
+    font-weight: bolder; 
+    font-size: 20px;
+    align-items: center;
+}
+
+.présentation3 p {font-weight: bold;
+background-color: whitesmoke;
+margin-left: 10px;
+margin-right: 10px;
+border: 2px solid black;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+          
+
